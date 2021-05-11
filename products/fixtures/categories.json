@@ -1,0 +1,13 @@
+[{"pk": 1, "model": "products.category", "fields": {"name": "essentials", "friendly_name": "Essentials"}}, 
+    {"pk": 2, "model": "products.category", "fields": {"name": "bodysuit_playsuit", "friendly_name": "Bodysuit & Playsuit"}}, 
+    {"pk": 3, "model": "products.category", "fields": {"name": "pants", "friendly_name": "Pants"}}, 
+    {"pk": 4, "model": "products.category", "fields": {"name": "sets", "friendly_name": "Sets"}}, 
+    {"pk": 5, "model": "products.category", "fields": {"name": "furniture", "friendly_name": "Furniture"}}, 
+    {"pk": 6, "model": "products.category", "fields": {"name": "bedding_items", "friendly_name": "Bedding & Items"}}, 
+    {"pk": 7, "model": "products.category", "fields": {"name": "room-decoration", "friendly_name": "Room Decoration"}}, 
+    {"pk": 8, "model": "products.category", "fields": {"name": "baby-care-products", "friendly_name": "Baby Care Products"}},
+    {"pk": 9, "model": "products.category", "fields": {"name": "nappies", "friendly_name": "Nappies"}},
+    {"pk": 10, "model": "products.category", "fields": {"name": "new-arrivals", "friendly_name": "New Arrivals"}},
+    {"pk": 11, "model": "products.category", "fields": {"name": "deals", "friendly_name": "Deals"}},
+    {"pk": 12, "model": "products.category", "fields": {"name": "clearance", "friendly_name": "Clearance"}}
+]

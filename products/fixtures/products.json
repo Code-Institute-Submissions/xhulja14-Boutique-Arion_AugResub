@@ -1,0 +1,313 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp01",
+      "name": "Beb Organic Oil",
+      "description": " Baby oil: Moisturise your baby's delicate skin and protect from dryness with this hydrating baby oil that locks in moisture for soft, smooth skin.Soothing baby oil: Rich in antioxidants and vitamins, this oil is made with apricot and grape seed oil to help relieve discomfort from dry skin.100 Percent natural: Add to bath water or apply directly to skin after a bath, this natural skin care is formulated without phthalates, parabens, petrolatum, SLS and without animal testing",
+      "price": 13.99,
+      "category": 8,
+      "rating": 4.6,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/10-organic-baby-products-beborganic.jpg",
+      "image": "10-organic-baby-products-beborganic.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp02",
+      "name": "Bodysuit Set",
+      "description": "Essentials Baby Girl's 4-Pack Short-Sleeve Bodysuit. 100% cotton.",
+      "price": 9.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/118474715_max_JDDYVNu.jpg",
+      "image": "118474715_max_JDDYVNu.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp03",
+      "name": "Baby Gift Set",
+      "description": "Perfect newborn gift idea. Set of 3, 1 hodded towel, 1 pillow, 1 wood decoration with babys name printed",
+      "price": 30,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/1485544875-organic-baby-products.jpg",
+      "image": "1485544875-organic-baby-products.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp04",
+      "name": "Elephant Soother",
+      "description": "Afrique Elephant WubbaNub is a stuffed animal and pacifier combined into one soft, soothing toy 15-Centimeter long animal friend makes it easy for baby to grasp and manipulate the pacifier.Machine washable.Latex-free, medical grade silicone Soothie pacifier; BPA, PVC and Phthalate free.Mary Meyer toys have the lasting value you expect from a family-owned company that's been making toys since 1933",
+      "price": 15,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/1adf28743b42f9ad5cbf5aa2b973233d-2-350x350_lCXVJum.jpg",
+      "image": "1adf28743b42f9ad5cbf5aa2b973233d-2-350x350_lCXVJum.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp05",
+      "name": "Hooded Towel",
+      "description": "Hooded Bath Towel Newborn - 100% Cotton White Hooded Towel with Ears Super Soft Zero Twist, 75cm x 75cm",
+      "price": 7.99,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/344195-organic-cotton-baby-hooded-towel_nHMa23A.jpeg",
+      "image": "344195-organic-cotton-baby-hooded-towel_nHMa23A.jpeg"
+    }
+  },
+
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp06",
+      "name": "Natural Baby Soap",
+      "description": "Natural Hemp Handmade Soap Bar, Refreshing, Vegan and Cruelty Free, Parabens and SLS Free",
+      "price": 9.99,
+      "category": 8,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/3f-Natural-Baby-Soap-180-SDL987265909-1-50334_N2nPOQR.jpg",
+      "image": "3f-Natural-Baby-Soap-180-SDL987265909-1-50334_N2nPOQR.jpg"
+    }
+  },
+
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp07",
+      "name": "Baby Pants Set",
+      "description": "Baby pants",
+      "price": 9.99,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/5Pcs-baby%20pants.jpg",
+      "image": "5Pcs-baby%20pants.jpg"
+    }
+  },
+
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp08",
+      "name": "Baby Nest Bed",
+      "description": " Portable Soft Breathable Baby Lounger Bed - 100% Cotton Crib Mattress for Bedroom or Travel",
+      "price": 39.99,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/61QP-nNy2BQL_3h3NT82.jpg",
+      "image": "61QP-nNy2BQL_3h3NT82.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp09",
+      "name": "Babymoov Cosydream Original",
+      "description": " ERGONOMIC SUPPORT: the Babymoov Cosydream Original guarantees an ideal position for your baby, it adapts to its size and provides very good support, the grouped position creates a reassuring effect for your baby.ADJUSTABLE: Reposition the leg support roll thanks to the velcro underneath as your baby grows: the leg roll raises your baby’s legs and facilitates digestion.PREVENT FLAT HEAD SYNDROME: An anatomical headrest is built into the Babymoov Cosydream to help reduce the risk of flat head syndrome and keep your newborn’s head nice and round",
+      "price": 49.99,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/baby_bed-T602-2A_Oyy3P4s.jpg",
+      "image": "baby_bed-T602-2A_Oyy3P4s.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp10",
+      "name": "Baby Blanket",
+      "description": " Cozy Throw Blankets for Newborn Infant and Toddler, Super Soft and Warm Receiving Baby Blanket for Crib Stroller",
+      "price": 19.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/Baby-Blanket-Newborn-Swaddle-Wrap-Super-Soft-cobertor-Baby.jpg_640x640.jpg",
+      "image": "Baby-Blanket-Newborn-Swaddle-Wrap-Super-Soft-cobertor-Baby.jpg_640x640.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp11",
+      "name": "Baby Boy Set",
+      "description": " 5Pcs Sleepwear Set Long Sleeve Tops+Hat+2Pcs Pants+Bib Clothes Set Gift for 0-3 Months Newborn",
+      "price": 19.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/baby-boy%20set.jpg",
+      "image": "baby-boy%20set.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp12",
+      "name": "Baby Girl Set",
+      "description": " 4Pcs Sleepwear Set Long Sleeve Tops+Hat+1Pcs Pants+Bib Clothes Set Gift for 0-3 Months Newborn",
+      "price": 19.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/baby-girl-laylette_01_OtaVQCb.jpg",
+      "image": "baby-girl-laylette_01_OtaVQCb.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp13",
+      "name": "Baby Girl Set",
+      "description": " Neutral Baby 10 Piece 100% Cotton Pink Clothing Gift Set Floral",
+      "price": 23.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/baby-girl-laylette_02_BZ9gvPp.jpg",
+      "image": "baby-girl-laylette_02_BZ9gvPp.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp14",
+      "name": "Organic Baby Towel",
+      "description": " Premium Quality Organic Bamboo Hooded Baby Bath Towel with Free Washcloth - Soft, Thick, Hypoallergenic for Babies and Toddlers - Extra Large Towel Perfect Gift for Boys and Girls",
+      "price": 13.99,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/BABY3Euca_lKS0KR2.jpg",
+      "image": "BABY3Euca_lKS0KR2.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp15",
+      "name": "Little Prince Bedding Set",
+      "description": " NEW LITTLE PRINCE BABY BEDDING SET ONLY for COT OR COT BED",
+      "price": 34.99,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/bedding%20set.jpg",
+      "image": "bedding%20set.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp15",
+      "name": "Little Prince Bedding Set",
+      "description": " Socks Anti Slip Grippers Fluffy Warm Cosy Socks",
+      "price": 34.99,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/Best-baby-socks-Just-One-You-made-by-carter-target_square_NrOfp8T.jpg",
+      "image": "Best-baby-socks-Just-One-You-made-by-carter-target_square_NrOfp8T.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp16",
+      "name": "Organic Toddler Pillow",
+      "description": " Ultra Soft – Made of a 100% Soft Cotton Cover and a 7D Hollow Siliconized Microfiber Filling, this pillow provides the premium comfort and support your baby needs. With just the right amount of fluff, your baby will sleep peacefully, preventing common infancy neck and head problems.",
+      "price": 14.99,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/Best-organic-toddler-pillow-4_tG5JLNH.jpg",
+      "image": "Best-organic-toddler-pillow-4_tG5JLNH.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp17",
+      "name": "Childs Farm Children Sun Lotion",
+      "description": " Childs Farm - Children's SPF 50+ Sun Lotion, Water Resistant, Moisturising, Sensitive Skin",
+      "price": 8.99,
+      "category": 8,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/best-toxin-free-organic-baby-products-childs-farm-sunscreen_wlWLkb7.jpg",
+      "image": "best-toxin-free-organic-baby-products-childs-farm-sunscreen_wlWLkb7.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp18",
+      "name": "Viverano Knitted Blanket",
+      "description": " Organic Cotton Knitted Cellular Baby Blanket 70cm x 90cm Cream Cable",
+      "price": 18.99,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/blanket_pLRkODJ.jpg",
+      "image": "blanket_pLRkODJ.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp19",
+      "name": "Avent Bottles Set",
+      "description": " The Philips Avent natural bottle is BPA-free. A natural feeding: a wide, extra-soft teat that imitates the shape of the breast that facilitates the alternating breast/bottle.Anti-colic valve: prevents air from entering baby's stomach",
+      "price": 22.99,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/bottles_DmY0PEi.jpg",
+      "image": "bottles_DmY0PEi.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp20",
+      "name": "Boys Playsuit Set",
+      "description": "Playsuit Hat Outfits Clothes, 100% cotton",
+      "price": 14.99,
+      "category": 2,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/boy-set_HqMCjEn.jpg",
+      "image": "boy-set_HqMCjEn.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp21",
+      "name": "Boys Gift Set",
+      "description": "Outfits Clothes, 4pcs newborn gift set, 100% cotton",
+      "price": 14.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://browser-aquamarine-finch-si3u5yft.ws-eu04.gitpod.io/workspace/Boutique-Arion/media/c7c2f43e415ac678805b469cecccbc0f_vBSA3pd.jpg",
+      "image": "c7c2f43e415ac678805b469cecccbc0f_vBSA3pd.jpg"
+    }
+  }
+]
