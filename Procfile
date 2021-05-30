@@ -1,1 +1,1 @@
-web: gunicorn boutique_arion.wsgi.application
+web: gunicorn boutique_arion.wsgi:application
