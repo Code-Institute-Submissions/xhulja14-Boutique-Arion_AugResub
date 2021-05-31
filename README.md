@@ -1,49 +1,164 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[ARION BABY STORE](https://8000-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/)
+
+<img src="https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/am%20i%20responsive.png" style="margin: 0;">
 
 
-## Gitpod Reminders
+# Contents:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* UX
+* Project Goals
+* Target Audience Goals
+* Site Owner Goals
+* User Stories
+* User Requirements and Expectations
+* Images
+* Wireframes
+* Testing
+* Bugs
+* Static files
+* Deployment
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+* Features that have been developed
+* Technologies Used
+* Planning + Testing:
+* Bugs
+* Deployment
 
-Another blue button should appear to click: _Open Browser_.
+# UX (User Experience)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Project Goals:
 
-A blue button should appear to click: _Make Public_,
+* The goal of this project is to help users find all the baby products they need for their little ones.
+* The project is created for all people and parents interested on organic baby products.
+* The website needs to be attractive and interactive providing an good User Experience to everyone who will use our e-commerce website.
+* The users need to be able to check through the website , find products, view images, make purchase.
 
-Another blue button should appear to click: _Open Browser_.
+## User Goals:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* A website that serves as an online shopping, providing all the details needed, efficient and saving time for shopping.
+* Visual interaction using pictures of products.
+* To have access on the website by creating profile and saving their shipping details.
+* Navigate, sort and filter products based on their needs.
+* Adding products in shopping bag and to secure checkout.
+* A website that works on mobile , tablet , desktop.
 
-To log into the Heroku toolbelt CLI you can use:
+## User Stories:
 
-`heroku login -i`
+* Edola KO: " As a user i want to navigate in a simple and well structured website which will make my navigation easy and fast."
+* Anna : " When i buy online i like to be able to login on the website and save my details so the next time i dont need to fill them out again."
+* Kim : " I like attractive websites but simple as well , to provide me all the information needed and visual content so i know what product i will purchase."
+* Addam : " As a user i want to be able to receive confirmation email with all my order details."
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+## Site Owner Goals:
 
-## Updates Since The Instructional Video
+* Make attractive website and get the users make a purchase.
+* Make it easy for the users to navigate and choose their favorite products.
+* Offer different categories of products to choose from.
+* Offer images and a good description of the products.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## User Requirements and Expectations:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* Requirements:
+  *  Use an interactive e-commerce website and find good products.
+  * Navigate the website using responsive search menu to sort fast the categories of interest.
+  * Provide information of the products as much as possible.
+  * Use images of products.
+  * Need to see products rating.
+  * To be able to keep items in shopping bag while navigation on other products.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Expectations:
+  * When you click on a product to provide all the details.
+  * When adding shipping information to be able to save them for next purchase .
+  * Content to be informative and visuali satisfying.
+  * Navigation takes user to specific parts of the website.
+  * Receive confirmation order details via email .
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Images:
+* I used images from google for this project.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Wireframes:
+ * Created a simple wireframes by using [Balsamiq](https://chrome.google.com/webstore/detail/balsamiq-wireframes-free/imbfadckkgblfbkinjejdeobpfbcopgb)
+ * I saved my wireframes as [PDF](https://acrobat.adobe.com/ie/en/acrobat/features.html?mv=search&sdid=QTV3P4CL&ef_id=121a635018a0184689a703e432189a83:G:s&s_kwcid=AL!3085!10!78890085992494!78890351607325&msclkid=121a635018a0184689a703e432189a83)
+* My wireframes :
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    * [Phone wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Phone-wireframe.png)
+    * [Tablet wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Tablet-wireframe.png)
+    * [Browser wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Browser-wireframe.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Technologies Used:
 
----
+## Languages:
 
-Happy coding!
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+
+* [JAVASCRIPT](https://en.wikipedia.org/wiki/JavaScript)
+
+* [Python](https://www.python.org/)
+
+
+## Tools & Libraries
+
+* [Git](https://git-scm.com/)
+* [Bootstrap](https://maps.google.com/)
+* [Jquery](https://jquery.com/)
+* [Font-Awesome](https://fontawesome.com/)
+* [TinyPng](https://tinypng.com/) __(image compression)__
+* [Am-I-Responsive](http://ami.responsivedesign.is/)
+* [W3-Official-Validator](https://validator.w3.org/)
+* [Stripe](https://stripe.com/docs)
+* [Heroku](https://dashboard.heroku.com/)
+* [AWS](https://signin.aws.amazon.com/)
+* [Pep8](https://pep8.org/)
+
+## Testing
+
+* The first step of testing my code is checking if my website is responsive.
+* When i [run](https://8000-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/) the server and open in browser i can see my website responding as it should .
+* When i try to [login](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28111%29.png) i can succesfully login.
+* When i [add](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28112%29.png) products to the bag is working as expected.
+* WHen i [create](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28114%29.png) a product as an admin of the store, is created succesfully.
+* When i [delete](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28115%29.png) a product is working and redirects me to the homepage.
+
+
+## Bugs
+Is some known bugs in my project :
+   * Duplicate ID , but i followed the example from the course when creating this project.
+   * Element li not allowed as child of element nav in this context, i followed the example from the course when creating this project.
+## Static files
+
+I hosted the static files for this project on [AWS](https://signin.aws.amazon.com/) by creating an account, bucket, group, user, and connected with heroku is displaying all my static files, also created a folder media and uploaded all my images.
+
+## Secure payment
+
+I used [Stripe](https://stripe.com/docs) for payment proccess as it is one of the safest financial service for e-commerce websites.
+
+## Deployment
+
+The project is hosted on Heroku. For it to run correctly the following is required:
+
+A Procfile that instructs Heroku how to run the app.
+
+requirements.txt. This file informs Heroku what dependencies are required to run the app correctly. It is created by typing on the terminal pip freeze > requirements.txt.
+
+Create a new app in Heroku
+
+Setup in Heroku the environment variables required to successfully run the app in Settings, Config Vars.
+
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+* DATABASE_URL
+* EMAIL_HOST_PASS
+* EMAIL_HOST_USER
+* SECRET_KEY
+* STRIPE_PUBLIC_KEY
+* STRIPE_SECRET_KEY
+* STRIPE_WH_SECRET
+* USE_AWS
+
+Connect Heroku to the project's repository on Github and setup automatic deployment. Heroku then will build a new version of the app every time a new deployment is pushed to Github.
+Heroku [app](https://xhulja14-boutique-arion.herokuapp.com/)
