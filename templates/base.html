@@ -135,11 +135,14 @@
     {% endblock %}
 
     {% block content %}
+    <div class="footer">
+        <p>Footer</p>
+      </div>
     {% endblock %}
 
     {% block postloadjs %}
     <script type="text/javascript">
-        $('.toast').toast('show')
+        $('.toast').toast('show');
         $('.toast').toast({delay: 2000});
     </script>
     {% endblock %}
