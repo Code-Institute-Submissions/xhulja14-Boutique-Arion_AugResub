@@ -128,7 +128,7 @@
     </header>
 
     {% if messages %}
-        <div class="message-container">
+        <div class="message-container" id="mytoast">
             {% for message in messages %}
                 {% with message.level as level %}
                     {% if level == 40 %}
@@ -153,7 +153,9 @@
     
     {% block postloadjs %}
     <script type="text/javascript">
+  
     $(document).ready(function(){
+      $('#mytoast').click(function(){
       $('.toast').toast({delay: 2000});
       $('.toast').toast('show');
     });
