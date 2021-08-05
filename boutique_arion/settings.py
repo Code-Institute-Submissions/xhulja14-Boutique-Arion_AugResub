@@ -14,6 +14,9 @@ from pathlib import Path
 import os
 import dj_database_url
 
+if os.path.exists("env.py"):
+    import env
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -49,6 +52,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'blog',
 
     # Other
     'crispy_forms',
@@ -141,7 +145,7 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
-  
+
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
