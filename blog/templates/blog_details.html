@@ -1,4 +1,9 @@
+{% extends 'base.html' %}
+{% block content%}
+
 <h1>{{ blogpost.title }}</h1>
 <small>By: {{ blogpost.user }}</small><br/>
 <hr>
 {{ blogpost.body_text }}
+
+{% endblock %}
