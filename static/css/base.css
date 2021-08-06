@@ -330,11 +330,12 @@ input[name='q']::placeholder {
 
 /*******************footer*************/
 body {
-    display: flex;
     min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    margin: 0;
   }
-
+  
   main {
-    flex: 1 0 auto;
+    flex-grow: 1;
   }

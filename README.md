@@ -1,6 +1,6 @@
-[ARION BABY STORE](https://8000-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/)
+[ARION BABY STORE](https://xhulja14-boutique-arion.herokuapp.com/)
 
-<img src="https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/am%20i%20responsive.png" style="margin: 0;">
+<img src="media/am%20i%20responsive.png" style="margin: 0;">
 
 
 # Contents:
@@ -83,9 +83,9 @@
  * I saved my wireframes as [PDF](https://acrobat.adobe.com/ie/en/acrobat/features.html?mv=search&sdid=QTV3P4CL&ef_id=121a635018a0184689a703e432189a83:G:s&s_kwcid=AL!3085!10!78890085992494!78890351607325&msclkid=121a635018a0184689a703e432189a83)
 * My wireframes :
 
-    * [Phone wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Phone-wireframe.png)
-    * [Tablet wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Tablet-wireframe.png)
-    * [Browser wireframe](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Browser-wireframe.png)
+    * [Phone wireframe](/media/Phone-wireframe.png)
+    * [Tablet wireframe](/media/Tablet-wireframe.png)
+    * [Browser wireframe](/media/Browser-wireframe.png)
 
 
 # Technologies Used:
@@ -118,12 +118,12 @@
 ## Testing
 
 * The first step of testing my code is checking if my website is responsive.
-* When i [run](https://8000-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/) the server and open in browser i can see my website responding as it should .
-* When i click on [register](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28116%29.png) heroku app i can create an account using the [Temp Mail](https://temp-mail.org/en/view/84f45ad3cc8c75e696a8ab0f21a9ebc5) with the disposable temporary email and after conforming the email, im able to login.
-* When i try to [login](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28111%29.png) i can succesfully login.
-* When i [add](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28112%29.png) products to the bag is working as expected.
-* WHen i [create](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28114%29.png) a product as an admin of the store, is created succesfully.
-* When i [delete](https://browser-aquamarine-finch-si3u5yft.ws-eu08.gitpod.io/workspace/Boutique-Arion/media/Screenshot%20%28115%29.png) a product is working and redirects me to the homepage.
+* When i [run](https://xhulja14-boutique-arion.herokuapp.com/) the server and open in browser i can see my website responding as it should .
+* When i click on [register]((https://xhulja14-boutique-arion.herokuapp.com/accounts/signup/)) heroku app i can create an account using the [Temp Mail](https://temp-mail.org/en/view/84f45ad3cc8c75e696a8ab0f21a9ebc5) with the disposable temporary email and after conforming the email, im able to login.
+* When i try to [login](/media/Screenshot%20%28111%29.png) i can succesfully login.
+* When i [add](/media/Screenshot%20%28112%29.png) products to the bag is working as expected.
+* WHen i [create](/media/Screenshot%20%28114%29.png) a product as an admin of the store, is created succesfully.
+* When i [delete](/media/Screenshot%20%28115%29.png) a product is working and redirects me to the homepage.
 
 
 ## Bugs
