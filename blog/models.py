@@ -9,9 +9,11 @@ class BlogPost(models.Model):
 	title = models.CharField(max_length=200)
 	body_text = models.TextField(default=None, blank=True, null=True)
 	created_at = models.CharField(max_length=200)
-
-	def __str__(self):
-		return self.title + ' | ' + str(self.created_at)
+	updated_at = models.DateTimeField(auto_now=True, blank=True)
+	
+	
+	def get_absolute_url(self):
+		return  self.title + '| ' + str(self.user)
 
 
 class Comments(models.Model):
