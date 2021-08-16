@@ -1,3 +1,4 @@
+
 {% load static %}
 
 <!doctype html>
@@ -107,15 +108,8 @@
                           </div>
                       </a>
                       <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                          {% if request.user.is_authenticated %}
-                              {% if request.user.is_superuser %}
-                                  <a href="{% url 'add_post' %}" class="dropdown-item">Add Blog Post</a>
-                              {% endif %}
-                              <a href="{% url 'blog' %}" class="dropdown-item">Blog Details</a>
-                          {% else %}
-                              <a href="{% url 'update_post' %}" class="dropdown-item">Edit Blog</a>
-                              <a href="#" class="dropdown-item">Login</a>
-                          {% endif %}
+                            <a href="{% url 'add_post' %}" class="dropdown-item">Add Blog Post</a>
+                            <a href="{% url 'blog' %}" class="dropdown-item">Blog Details</a>
                       </div>
                   </li>
                     <li class="list-inline-item">

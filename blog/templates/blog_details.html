@@ -13,8 +13,8 @@
 <small>By: {{ blogpost.user }}</small><br/>
 <hr>
 <br/>
-{{ blogpost.body_text }}- <a href="{% url 'update_post' post.pk %}"></a>
+{{ blogpost.body_text }}- <small><a href="{% url 'update_post' blogpost.id %}">Edit</a></small>
 
 <br/><br/>
-<a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+<a href="{% url 'blog' %}" class="btn btn-secondary">Back</a>
 {% endblock %}

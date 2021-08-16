@@ -12,9 +12,9 @@
 <h1>Blog</h1>
 <ul>
 {% for blogpost in object_list %}
-   <li><a href="{% url 'blog_details' post.pk %}">{{ blogpost.title }}</a> - {{ blogpost.user }} <br/>
+   <li><a href="{% url 'blog_details' blogpost.id %}">{{ blogpost.title }}</a> - {{ blogpost.user }} <br/>
    {{ blogpost.body_text }}</li>
-   <a href="{% url 'update_post' post.pk %}"></a>
+   <a href="{% url 'update_post' blogpost.pk %}">Edit</a>
 
 {% endfor%}
 </ul>

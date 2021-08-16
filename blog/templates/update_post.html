@@ -11,12 +11,10 @@
 {% block content %}
 <h1>Update Post</h1>
 <br/><br/>
-<div class="container-fluid">
-    <div class="mb-3">
-        <form method="POST" >
+    <div class="form-group">
+        <form method="POST" id="blog-form">
             {% csrf_token %}
             {{ form.as_p }}
             <button class="btn btn-secondary">Update</button>
     </div>
-</div>
 {% endblock %}
