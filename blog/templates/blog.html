@@ -14,6 +14,7 @@
 {% for blogpost in object_list %}
    <li><a href="{% url 'blog_details' post.pk %}">{{ blogpost.title }}</a> - {{ blogpost.user }} <br/>
    {{ blogpost.body_text }}</li>
+   <a href="{% url 'update_post' post.pk %}"></a>
 
 {% endfor%}
 </ul>

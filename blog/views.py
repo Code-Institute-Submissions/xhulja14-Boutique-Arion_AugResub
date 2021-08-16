@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView, DetailView, CreateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 from .models import BlogPost
 from .forms import PostForm
 
@@ -8,16 +8,13 @@ from .forms import PostForm
 
 class BlogView(ListView):
     model = BlogPost
-    template_name = 'blog.html' 
-
-    BlogPost = get_object_or_404
+    template_name = 'blog.html'
 
 
 class BlogDetailView(DetailView):
     model = BlogPost
     template_name = 'blog_details.html'
 
-    BlogPost = get_object_or_404
 
 
 class AddPostView(CreateView):
@@ -25,5 +22,13 @@ class AddPostView(CreateView):
     form_class = PostForm
     template_name = 'add_post.html'
 
-    BlogPost = get_object_or_404
+
     # fields = '__all__'
+
+
+class UpdatePostView(UpdateView):
+    model = BlogPost
+    template_name = 'update_post.html'
+    fields = ['title', 'body']
+
+    

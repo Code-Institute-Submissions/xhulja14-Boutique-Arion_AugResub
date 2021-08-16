@@ -12,6 +12,4 @@ class PostForm(forms.ModelForm):
         'user': forms.Select(attrs={'class': 'form-control'}),
         'body_text': forms.Textarea(attrs={'class': 'form-control'}),
         'created_at': forms.TextInput(attrs={'class': 'form-control'}),
-        
-
     }

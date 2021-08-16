@@ -6,14 +6,15 @@
         </div>
     </div>
 {% endblock %}
+
 {% block content%}
 
 <h1>{{ blogpost.title }}</h1>
 <small>By: {{ blogpost.user }}</small><br/>
 <hr>
 <br/>
-{{ blogpost.body_text }}
+{{ blogpost.body_text }}- <a href="{% url 'update_post' post.pk %}"></a>
 
 <br/><br/>
-<a href="{% url 'blog' %}" class="btn btn-secondary">Back</a>
+<a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
 {% endblock %}
