@@ -9,16 +9,19 @@
 
 {% block content %}
 
-<h1>Blog</h1>
-<ul>
+<h3 class="text-centre">Blog</h3>
+<hr>
+<ul class="list-group">
 {% for blogpost in object_list %}
-   <li><a href="{% url 'blog_details' blogpost.id %}">{{ blogpost.title }}</a><br/>
-    {{ blogpost.body_text }} <br/>
-    {{ blogpost.user }}<br/>{{ blogpost.created_at}}</li>
+   <li class="list-group-item list-group-item-light">
+       <a href="{% url 'blog_details' blogpost.id %}" class="btn btn-block btn-secondary">{{ blogpost.title }}</a>
+    <br/>- {{ blogpost.body_text }}<br/> 
+    <small> By: {{ blogpost.user }}</small>
+    <br/><small>{{ blogpost.created_at}}</small><br/>
    <small>
-   <a href="{% url 'update_post' blogpost.pk %}">Edit</a>
-   <a href="{% url 'delete_post' blogpost.pk %}">Delete</a>
-</small>
+   <a href="{% url 'update_post' blogpost.pk %}" class="btn btn-xs btn-info">Edit</a>
+   <a href="{% url 'delete_post' blogpost.pk %}" class="btn btn-xs btn-danger">Delete</a></small>
+</li>
 <br/>
 
 {% endfor%}

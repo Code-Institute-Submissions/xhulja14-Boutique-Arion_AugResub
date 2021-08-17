@@ -9,12 +9,14 @@
 {% endblock %}
 
 {% block content %}
-<h1>Update Post</h1>
+<h1 class="text-centre">Update Post</h1>
+<hr>
 <br/><br/>
     <div class="form-group">
         <form method="POST" id="blog-form">
             {% csrf_token %}
             {{ form.as_p }}
-            <button class="btn btn-secondary">Update</button>
+            <button class="btn btn-info">Update</button>
+            <a href="{% url 'blog' %}" class="btn btn-dark btn-secondary">Back</a>
     </div>
 {% endblock %}

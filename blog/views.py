@@ -1,5 +1,5 @@
-from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+from django.views.generic import (ListView, DetailView,
+                                  CreateView, UpdateView, DeleteView)
 from .models import BlogPost
 from .forms import PostForm
 from django.urls import reverse_lazy
@@ -10,6 +10,7 @@ from django.urls import reverse_lazy
 class BlogView(ListView):
     model = BlogPost
     template_name = 'blog.html'
+    ordering = ['-created_at']
 
 
 class BlogDetailView(DetailView):
@@ -26,11 +27,10 @@ class AddPostView(CreateView):
 class UpdatePostView(UpdateView):
     model = BlogPost
     template_name = 'update_post.html'
-    fields = ['title', 'body_text']  
+    fields = ['title', 'body_text', 'updated_at']
 
 
 class DeletePostView(DeleteView):
     model = BlogPost
     template_name = 'delete_post.html'
     success_url = reverse_lazy('blog')
-  

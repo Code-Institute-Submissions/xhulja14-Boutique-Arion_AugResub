@@ -9,13 +9,14 @@
 {% endblock %}
 
 {% block content %}
-<h1>Add Blog Post</h1>
+<h3 class="text-centre">Add Blog Post</h3>
+<hr>
 <br/><br/>
     <div class="form-group">
         <form method="POST" id="blog-form">
             {% csrf_token %}
             {{ form.as_p }}
-            <button class="btn btn-secondary">Post</button>
+            <button class="btn btn-lg btn-dark">Post</button>
     </div>
 
 {% endblock %}
