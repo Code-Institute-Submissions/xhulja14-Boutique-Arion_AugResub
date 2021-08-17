@@ -15,11 +15,11 @@
 {{ blogpost.body_text }} <br/>
 <small>By: {{ blogpost.user }}</small><br/>
 {% if request.user.is_superuser %}
-<small class="ml-3">
+<small>
     <a href="{% url 'update_post' blogpost.id %}" class="btn btn-xs btn-info">Edit</a>
     <a href="{% url 'delete_post' blogpost.id %}" class="btn btn-xs btn-danger">Delete</a>
 </small>
 {% endif %}
 <br/><br/>
-<a href="{% url 'blog' %}" class="btn btn-dark btn-secondary">Back</a>
+<a href="{% url 'blog' %}" class="btn btn-outline-black btn-secondary">Back</a>
 {% endblock %}

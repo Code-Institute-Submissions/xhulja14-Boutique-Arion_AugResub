@@ -17,6 +17,7 @@
             {% csrf_token %}
             {{ form.as_p }}
             <button class="btn btn-lg btn-dark">Post</button>
+            <a class="btn btn-outline-black" href="{% url 'blog' %}">Cancel</a>
     </div>
 
 {% endblock %}

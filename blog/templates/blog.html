@@ -19,7 +19,7 @@
     <small> By: {{ blogpost.user }}</small>
     <br/><small>{{ blogpost.created_at}}</small><br/>
     {% if request.user.is_superuser %}
-   <small class="ml-3">
+   <small>
    <a href="{% url 'update_post' blogpost.pk %}" class="btn btn-xs btn-info">Edit</a>
    <a href="{% url 'delete_post' blogpost.pk %}" class="btn btn-xs btn-danger">Delete</a></small>
    {% endif %}
