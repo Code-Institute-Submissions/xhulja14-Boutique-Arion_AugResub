@@ -46,7 +46,7 @@
 
 ## User Stories:
 
-* Edola KO: " As a user i want to navigate in a simple and well structured website which will make my navigation easy and fast."
+* Edola KO: " "As a user i want to navigate in a simple and well structured website which will make my navigation easy and fast."
 * Anna : " When i buy online i like to be able to login on the website and save my details so the next time i dont need to fill them out again."
 * Kim : " I like attractive websites but simple as well , to provide me all the information needed and visual content so i know what product i will purchase."
 * Addam : " As a user i want to be able to receive confirmation email with all my order details."
@@ -57,7 +57,8 @@
 * Make it easy for the users to navigate and choose their favorite products.
 * Offer different categories of products to choose from.
 * Offer images and a good description of the products.
-
+* Offer blog posts related with interesting topics about my site
+  
 ## User Requirements and Expectations:
 
 * Requirements:
@@ -118,12 +119,22 @@
 ## Testing
 
 * The first step of testing my code is checking if my website is responsive.
+* Keeping in mind users storys : "As a user i want to navigate in a simple and well structured website", i navigated through my site and everything is rensponsive.
 * When i [run](https://xhulja14-boutique-arion.herokuapp.com/) the server and open in browser i can see my website responding as it should .
+* The next step to test is related to user stories is about being able to create an account and login
 * When i click on [register]((https://xhulja14-boutique-arion.herokuapp.com/accounts/signup/)) heroku app i can create an account using the [Temp Mail](https://temp-mail.org/en/view/84f45ad3cc8c75e696a8ab0f21a9ebc5) with the disposable temporary email and after conforming the email, im able to login.
 * When i try to [login](/media/Screenshot%20%28111%29.png) i can succesfully login.
+* Next test is about selecting a product and put in bag. This functionality is working as expected use is able to add a product in bag and save it while they keep browsing
+* All image link work as expected.
 * When i [add](/media/Screenshot%20%28112%29.png) products to the bag is working as expected.
+* Testing were done whith the purchase functionality and is succesful , users can go through purchase steps adding their shipping details, payment details and after the purchase they get a confirmation email.
+* The user details are saved in their profile as well the oreder details.
+* Confirmation email is automatically send to user after purchase.
+* Superuser functionality working as expected the admin of the page can login and have access to add new products, update them or delete them.
 * WHen i [create](/media/Screenshot%20%28114%29.png) a product as an admin of the store, is created succesfully.
 * When i [delete](/media/Screenshot%20%28115%29.png) a product is working and redirects me to the homepage.
+* Blog page is rensponsive so users of my site can add blog post but only admin of page can update or delete the posts.
+* After manual testing i did the automated testing through W3C online validator and PEP8 checker by using validate by input text.
 
 
 ## Bugs
