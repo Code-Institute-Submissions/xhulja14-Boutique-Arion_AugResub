@@ -35,7 +35,7 @@
     {% block extra_js %}
 <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
         <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/4.0.0/cookie-consent.js" charset="UTF-8"></script>
-        <script type="text/javascript" charset="UTF-8">
+        <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
             cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"dark","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"open_preferences_center_selector":"cookies"});
         });
@@ -45,8 +45,6 @@
         <script type="text/plain" cookie-consent="functionality"></script>
     <!-- end of cookies-->
 
-        <noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
-    <!-- End Cookie Consent -->
     {% endblock %}
 
     <title>Boutique Arion {% block extra_title %}{% endblock %}</title>
@@ -162,7 +160,7 @@
     {% block page_header %}
     {% endblock %}
   
-    </br>
+
     <div class="container ">
     {% block content %}
     {% endblock %}
@@ -183,9 +181,7 @@
   <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
     <!-- Section: Social media -->
-    <section
-      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-    >
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div class="me-5 d-none d-md-block">
         <span>Get connected with us on social networks:</span>
       </div>
@@ -221,6 +217,7 @@
               ecological clothing with 0% chemicals to take care and protect the skin of your loved ones.
             </p>
           </div>
+      
   
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -247,7 +244,6 @@
           </div>
           <!-- Grid column -->
         </div>
-        <!-- Grid row -->
       </div>
     </section>
     <!-- Section: Links  -->
